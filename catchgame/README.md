@@ -1,6 +1,3 @@
-# catchgame_sandvr
- catchegame for sandbox VR
-
 # folder structure
 
 CATCHGAME // FrontEnd Game

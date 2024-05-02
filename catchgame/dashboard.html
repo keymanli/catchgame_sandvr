@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdn.rawgit.com/jgthms/minireset.css/master/minireset.css">
+		<link rel="stylesheet" href="css/debug.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.2/jquery.min.js" integrity="sha512-tWHlutFnuG0C6nQRlpvrEhE4QpkG1nn2MOUMWmUeRePl4e3Aki0VB6W1v3oLjFtd0hVOtRQ9PHpSfN6u6/QXkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="js/dashboard.js"></script>
+        <style>
+           html { 
+  background: url("assets/bg2.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+    width: 1280px;
+    height: 1080px;
+}
+
+.scorelist{
+    font-size: 24px;
+    color: yellow;
+}
+        </style>
+        <body>
+            <table class="scorelist" id="scorelist">
+                <tr><td width="250px">Player name</td><td>Score</td></tr>
+                </table>
+            
+        </body>
+        <script>
+            ShowScore();
+            </script>
+        </head>
+        </html>

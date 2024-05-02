@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdn.rawgit.com/jgthms/minireset.css/master/minireset.css">
+		<link rel="stylesheet" href="css/debug.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900">
+        <style>
+           html { 
+  background: url("assets/bg1.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bigtitle {
+font-size: 34px;
+color: greenyellow;
+align-self: center;
+text-align: center;
+
+}
+.container {
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+        </style>
+        <body>
+            <div class="bigtitle">Catch Game - Keyman</div>
+            <div class="container">
+                <div class="vertical-center">
+                    <button onclick="newGame()">Start Game</button>
+                    <button onclick="leaderBoard()">Leaderboard</button>
+                </div>
+              </div>
+
+        </body>
+        
+        </head>
+        <script>
+            function newGame(){
+                window.location = 'newgame.html';
+            }
+            function leaderBoard(){
+                window.location = 'dashboard.html';
+            }
+        </script>
+        </html>
